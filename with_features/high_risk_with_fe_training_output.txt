@@ -1,0 +1,294 @@
+(assignment5) nolanbetts@Nolans-MacBook-Pro-2 assignment5 % python high_risk_with_fe.py
+Loading data...
+Loading brain scans...
+Loading images: 100%|████████████████████| 691/691 [04:14<00:00,  2.71scan/s, Loaded=691/691]
+
+Processing loaded images...
+
+Final images shape: (691, 1, 64, 64, 64)
+Number of unique subjects: 190
+Total number of images: 691
+
+Age statistics:
+Min age: 60.0
+Max age: 97.0
+Mean age: 77.0
+Std age: 8.1
+
+Images per patient statistics:
+Min: 2
+Max: 4
+Mean: 3.64
+Training set size: 558 (from 152 patients)
+Test set size: 133 (from 38 patients)
+Extracting brain features...
+100%|█████████████████████████████████████████████████████| 558/558 [00:03<00:00, 141.68it/s]
+Extracting brain features...
+100%|█████████████████████████████████████████████████████| 133/133 [00:00<00:00, 136.26it/s]
+Starting training...
+
+Epoch [1/50]
+Learning Rate: 0.000333
+Max Gradient Norm: 2.9173
+Training Loss: 1.0695
+Validation Loss: 0.8700
+
+Training Metrics:
+MAE: 6.84 years
+RMSE: 8.42 years
+
+Validation Metrics:
+MAE: 5.72 years
+RMSE: 7.41 years
+--------------------------------------------------
+
+Epoch [2/50]
+Learning Rate: 0.000667
+Max Gradient Norm: 3.3005
+Training Loss: 1.0624
+Validation Loss: 0.9140
+
+Training Metrics:
+MAE: 6.85 years
+RMSE: 8.39 years
+
+Validation Metrics:
+MAE: 6.14 years
+RMSE: 7.58 years
+--------------------------------------------------
+
+Epoch [3/50]
+Learning Rate: 0.001000
+Max Gradient Norm: 3.8655
+Training Loss: 1.0195
+Validation Loss: 1.0210
+
+Training Metrics:
+MAE: 6.69 years
+RMSE: 8.22 years
+
+Validation Metrics:
+MAE: 5.84 years
+RMSE: 8.12 years
+--------------------------------------------------
+
+Epoch [4/50]
+Learning Rate: 0.001000
+Max Gradient Norm: 5.0047
+Training Loss: 1.0088
+Validation Loss: 0.8479
+
+Training Metrics:
+MAE: 6.65 years
+RMSE: 8.17 years
+
+Validation Metrics:
+MAE: 5.67 years
+RMSE: 7.32 years
+--------------------------------------------------
+
+Epoch [5/50]
+Learning Rate: 0.001000
+Max Gradient Norm: 4.3201
+Training Loss: 0.9528
+Validation Loss: 0.8396
+
+Training Metrics:
+MAE: 6.48 years
+RMSE: 7.95 years
+
+Validation Metrics:
+MAE: 5.81 years
+RMSE: 7.28 years
+--------------------------------------------------
+
+Epoch [6/50]
+Learning Rate: 0.001000
+Max Gradient Norm: 4.1326
+Training Loss: 0.9366
+Validation Loss: 0.8234
+
+Training Metrics:
+MAE: 6.41 years
+RMSE: 7.87 years
+
+Validation Metrics:
+MAE: 5.70 years
+RMSE: 7.22 years
+--------------------------------------------------
+
+Epoch [7/50]
+Learning Rate: 0.001000
+Max Gradient Norm: 3.1916
+Training Loss: 0.8703
+Validation Loss: 0.8163
+
+Training Metrics:
+MAE: 6.15 years
+RMSE: 7.58 years
+
+Validation Metrics:
+MAE: 5.84 years
+RMSE: 7.19 years
+--------------------------------------------------
+
+Epoch [8/50]
+Learning Rate: 0.001000
+Max Gradient Norm: 5.4764
+Training Loss: 0.8677
+Validation Loss: 0.8313
+
+Training Metrics:
+MAE: 6.12 years
+RMSE: 7.58 years
+
+Validation Metrics:
+MAE: 6.03 years
+RMSE: 7.27 years
+--------------------------------------------------
+
+Epoch [9/50]
+Learning Rate: 0.001000
+Max Gradient Norm: 5.0507
+Training Loss: 0.8370
+Validation Loss: 0.8370
+
+Training Metrics:
+MAE: 6.04 years
+RMSE: 7.45 years
+
+Validation Metrics:
+MAE: 6.11 years
+RMSE: 7.28 years
+--------------------------------------------------
+
+Epoch [10/50]
+Learning Rate: 0.001000
+Max Gradient Norm: 4.3951
+Training Loss: 0.7908
+Validation Loss: 0.8421
+
+Training Metrics:
+MAE: 5.80 years
+RMSE: 7.23 years
+
+Validation Metrics:
+MAE: 6.18 years
+RMSE: 7.31 years
+--------------------------------------------------
+
+Epoch [11/50]
+Learning Rate: 0.001000
+Max Gradient Norm: 7.1389
+Training Loss: 0.7864
+Validation Loss: 0.8531
+
+Training Metrics:
+MAE: 5.78 years
+RMSE: 7.22 years
+
+Validation Metrics:
+MAE: 6.32 years
+RMSE: 7.39 years
+--------------------------------------------------
+
+Epoch [12/50]
+Learning Rate: 0.001000
+Max Gradient Norm: 6.3524
+Training Loss: 0.7794
+Validation Loss: 0.8810
+
+Training Metrics:
+MAE: 5.70 years
+RMSE: 7.18 years
+
+Validation Metrics:
+MAE: 6.49 years
+RMSE: 7.51 years
+--------------------------------------------------
+
+Epoch [13/50]
+Learning Rate: 0.000500
+Max Gradient Norm: 8.1305
+Training Loss: 0.7844
+Validation Loss: 0.8770
+
+Training Metrics:
+MAE: 5.70 years
+RMSE: 7.20 years
+
+Validation Metrics:
+MAE: 6.39 years
+RMSE: 7.49 years
+--------------------------------------------------
+
+Epoch [14/50]
+Learning Rate: 0.000500
+Max Gradient Norm: 8.3720
+Training Loss: 0.7196
+Validation Loss: 0.8869
+
+Training Metrics:
+MAE: 5.47 years
+RMSE: 6.87 years
+
+Validation Metrics:
+MAE: 6.45 years
+RMSE: 7.54 years
+--------------------------------------------------
+
+Epoch [15/50]
+Learning Rate: 0.000500
+Max Gradient Norm: 8.6790
+Training Loss: 0.7278
+Validation Loss: 0.8911
+
+Training Metrics:
+MAE: 5.52 years
+RMSE: 6.95 years
+
+Validation Metrics:
+MAE: 6.48 years
+RMSE: 7.56 years
+--------------------------------------------------
+
+Epoch [16/50]
+Learning Rate: 0.000500
+Max Gradient Norm: 7.5697
+Training Loss: 0.7244
+Validation Loss: 0.8813
+
+Training Metrics:
+MAE: 5.47 years
+RMSE: 6.92 years
+
+Validation Metrics:
+MAE: 6.45 years
+RMSE: 7.52 years
+--------------------------------------------------
+
+Early stopping triggered at epoch 16
+Best validation loss was 0.8163 at epoch 6
+
+Found 146 demented subjects
+Found 37 converted subjects
+Loading brain scans...
+Loading images: 100%|████████████████████| 676/676 [04:53<00:00,  2.30scan/s, Loaded=676/676]
+
+Processing loaded images...
+Extracting brain features...
+100%|█████████████████████████████████████████████████████| 676/676 [00:06<00:00, 101.00it/s]
+
+Metrics for Demented subjects:
+Number of subjects: 542
+MAE: 5.22 years
+RMSE: 6.51 years
+Mean brain age gap: 1.23 years
+Std brain age gap: 6.40 years
+
+Metrics for Converted subjects:
+Number of subjects: 134
+MAE: 6.37 years
+RMSE: 7.20 years
+Mean brain age gap: -2.89 years
+Std brain age gap: 6.60 years
