@@ -7,4 +7,4 @@ This section contains the program used to generate the model without extracted f
 # Link to Video
 -- TBD 
 # Link to Slides
--- TBD
+-- [Slide Deck](https://docs.google.com/presentation/d/1YkHzxuhzsUh6NUaEzz0ljUD_xGMlyAmA3ezMY5X4n3s/edit?usp=sharing)
