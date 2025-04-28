@@ -3,7 +3,7 @@ This section contains the program used to generate the model with extracted feat
 # without_features
 This section contains the program used to generate the model without extracted features
 # ACM Style Paper
--- TBD
+-- [ACM Paper](https://github.com/nolanfbetts/BrainAgeHighRisk/blob/main/betts.n.pdf)
 # Link to Video
 -- TBD 
 # Link to Slides
